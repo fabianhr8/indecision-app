@@ -1,0 +1,10 @@
+{
+    // This is so that babel has the env and react presets ready for compilation
+    "presets": [
+        "env", "react"
+    ],
+    // This simplifies the constructor() part of the class
+    "plugins": [
+        "transform-class-properties"
+    ]
+}
